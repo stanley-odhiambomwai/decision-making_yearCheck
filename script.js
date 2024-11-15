@@ -10,3 +10,7 @@ function isLeapYear(year) {
         return false;
     }
 }
+
+console.log(isLeapYear(2003));
+console.log(isLeapYear(2011));
+console.log(isLeapYear(2000));
