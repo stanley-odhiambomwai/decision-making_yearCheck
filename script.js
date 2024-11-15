@@ -36,3 +36,6 @@ function weatherCheck(temperature, isRaining) {
         }
     }
 }
+
+console.log(weatherCheck(25, true));
+console.log(weatherCheck(12, false));
