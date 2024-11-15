@@ -14,3 +14,25 @@ function isLeapYear(year) {
 console.log(isLeapYear(2003));
 console.log(isLeapYear(2011));
 console.log(isLeapYear(2000));
+
+//Develop a program that asks the user for the current temperature and
+//whether it is raining or not. Then, depending on the temperature and
+//whether it is raining or not, the program should output
+//the appropriate message whether it is raining or not.
+// Based on this information, advise the user on what clothing to wear.
+
+function weatherCheck(temperature, isRaining) {
+    if (isRaining) {
+        if (temperature < 15) {
+            return "It's cold and raining, you should wear a jacket.";
+        } else {
+            return "It's warm and raining, you should wear shorts.";
+        }
+    } else {
+        if (temperature < 15) {
+            return "It's cold and not raining, you should wear a sweater.";
+        } else {
+            return "It's warm and not raining, you should wear a t-shirt.";
+        }
+    }
+}
